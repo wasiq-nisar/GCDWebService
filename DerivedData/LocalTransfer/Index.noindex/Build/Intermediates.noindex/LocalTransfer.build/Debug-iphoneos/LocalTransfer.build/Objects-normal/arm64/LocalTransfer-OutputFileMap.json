@@ -1,0 +1,24 @@
+{
+  "" : {
+    "dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Index.noindex/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransfer-master.d",
+    "diagnostics" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Index.noindex/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransfer-master.dia",
+    "emit-module-dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Index.noindex/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransfer-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Index.noindex/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransfer-master-emit-module.dia",
+    "swift-dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Index.noindex/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransfer-master.swiftdeps"
+  },
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Index.noindex/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/AppDelegate.swift" : {
+
+  },
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/LocalTransferManager.swift" : {
+
+  },
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/SceneDelegate.swift" : {
+
+  },
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/ViewController.swift" : {
+
+  }
+}

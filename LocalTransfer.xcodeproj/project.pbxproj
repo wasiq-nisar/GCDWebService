@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0916EDD52B3EFD4D00338DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0916EDD42B3EFD4D00338DD0 /* LaunchScreen.storyboard */; };
+		09408D8B2B3E98160053D269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09408D8A2B3E98160053D269 /* AppDelegate.swift */; };
+		09408D8D2B3E98160053D269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09408D8C2B3E98160053D269 /* SceneDelegate.swift */; };
+		09408D8F2B3E98160053D269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09408D8E2B3E98160053D269 /* ViewController.swift */; };
+		09408D922B3E98160053D269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09408D902B3E98160053D269 /* Main.storyboard */; };
+		09408D942B3E98180053D269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09408D932B3E98180053D269 /* Assets.xcassets */; };
+		09408D9F2B3EA53D0053D269 /* LocalTransferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09408D9E2B3EA53D0053D269 /* LocalTransferManager.swift */; };
+		09F05B2A2B42878B004A92EE /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B082B42878B004A92EE /* GCDWebServerResponse.m */; };
+		09F05B2B2B42878B004A92EE /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B0B2B42878B004A92EE /* GCDWebServerRequest.m */; };
+		09F05B2C2B42878B004A92EE /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B0E2B42878B004A92EE /* GCDWebServerFunctions.m */; };
+		09F05B2D2B42878B004A92EE /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B0F2B42878B004A92EE /* GCDWebServer.m */; };
+		09F05B2E2B42878B004A92EE /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B102B42878B004A92EE /* GCDWebServerConnection.m */; };
+		09F05B2F2B42878B004A92EE /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B152B42878B004A92EE /* GCDWebServerErrorResponse.m */; };
+		09F05B302B42878B004A92EE /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B172B42878B004A92EE /* GCDWebServerFileResponse.m */; };
+		09F05B312B42878B004A92EE /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B182B42878B004A92EE /* GCDWebServerDataResponse.m */; };
+		09F05B322B42878B004A92EE /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B1A2B42878B004A92EE /* GCDWebServerStreamedResponse.m */; };
+		09F05B332B42878B004A92EE /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B1F2B42878B004A92EE /* GCDWebServerURLEncodedFormRequest.m */; };
+		09F05B342B42878B004A92EE /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B202B42878B004A92EE /* GCDWebServerMultiPartFormRequest.m */; };
+		09F05B352B42878B004A92EE /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B212B42878B004A92EE /* GCDWebServerDataRequest.m */; };
+		09F05B362B42878B004A92EE /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B222B42878B004A92EE /* GCDWebServerFileRequest.m */; };
+		09F05B372B42878B004A92EE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 09F05B242B42878B004A92EE /* LICENSE */; };
+		09F05B382B42878B004A92EE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 09F05B252B42878B004A92EE /* README.md */; };
+		09F05B392B42878B004A92EE /* GCDWebUploader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09F05B272B42878B004A92EE /* GCDWebUploader.bundle */; };
+		09F05B3A2B42878B004A92EE /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F05B292B42878B004A92EE /* GCDWebUploader.m */; };
+		D8AFC0713BF62DBC1A2832F4 /* Pods_LocalTransfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3CB76EAF9F784425A15FD1 /* Pods_LocalTransfer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0916EDD42B3EFD4D00338DD0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0916EDD62B3EFDEB00338DD0 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		09408D872B3E98160053D269 /* LocalTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09408D8A2B3E98160053D269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09408D8C2B3E98160053D269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09408D8E2B3E98160053D269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09408D912B3E98160053D269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09408D932B3E98180053D269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09408D982B3E98180053D269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09408D9E2B3EA53D0053D269 /* LocalTransferManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTransferManager.swift; sourceTree = "<group>"; };
+		09F05B062B42878B004A92EE /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		09F05B072B42878B004A92EE /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		09F05B082B42878B004A92EE /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		09F05B092B42878B004A92EE /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		09F05B0A2B42878B004A92EE /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		09F05B0B2B42878B004A92EE /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		09F05B0C2B42878B004A92EE /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		09F05B0D2B42878B004A92EE /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		09F05B0E2B42878B004A92EE /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		09F05B0F2B42878B004A92EE /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		09F05B102B42878B004A92EE /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		09F05B112B42878B004A92EE /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		09F05B132B42878B004A92EE /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		09F05B142B42878B004A92EE /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		09F05B152B42878B004A92EE /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		09F05B162B42878B004A92EE /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		09F05B172B42878B004A92EE /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		09F05B182B42878B004A92EE /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		09F05B192B42878B004A92EE /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		09F05B1A2B42878B004A92EE /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		09F05B1C2B42878B004A92EE /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		09F05B1D2B42878B004A92EE /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		09F05B1E2B42878B004A92EE /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		09F05B1F2B42878B004A92EE /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		09F05B202B42878B004A92EE /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		09F05B212B42878B004A92EE /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		09F05B222B42878B004A92EE /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		09F05B232B42878B004A92EE /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		09F05B242B42878B004A92EE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		09F05B252B42878B004A92EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		09F05B272B42878B004A92EE /* GCDWebUploader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GCDWebUploader.bundle; sourceTree = "<group>"; };
+		09F05B282B42878B004A92EE /* GCDWebUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebUploader.h; sourceTree = "<group>"; };
+		09F05B292B42878B004A92EE /* GCDWebUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebUploader.m; sourceTree = "<group>"; };
+		0D3CB76EAF9F784425A15FD1 /* Pods_LocalTransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalTransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B967DD1A4CF4053FEED023A2 /* Pods-LocalTransfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalTransfer.debug.xcconfig"; path = "Target Support Files/Pods-LocalTransfer/Pods-LocalTransfer.debug.xcconfig"; sourceTree = "<group>"; };
+		E0F11FF827C5FE8F8CC2613C /* Pods-LocalTransfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalTransfer.release.xcconfig"; path = "Target Support Files/Pods-LocalTransfer/Pods-LocalTransfer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09408D842B3E98160053D269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8AFC0713BF62DBC1A2832F4 /* Pods_LocalTransfer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09408D7E2B3E98160053D269 = {
+			isa = PBXGroup;
+			children = (
+				09408D892B3E98160053D269 /* LocalTransfer */,
+				09408D882B3E98160053D269 /* Products */,
+				3F89AB63A7653AD2198BC699 /* Pods */,
+				2D9E02DC235D8A07E5C6590B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09408D882B3E98160053D269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09408D872B3E98160053D269 /* LocalTransfer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09408D892B3E98160053D269 /* LocalTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				09F05B022B4286FC004A92EE /* Vendor */,
+				0916EDD42B3EFD4D00338DD0 /* LaunchScreen.storyboard */,
+				09408D8A2B3E98160053D269 /* AppDelegate.swift */,
+				09408D8C2B3E98160053D269 /* SceneDelegate.swift */,
+				09408D8E2B3E98160053D269 /* ViewController.swift */,
+				09408D902B3E98160053D269 /* Main.storyboard */,
+				09408D932B3E98180053D269 /* Assets.xcassets */,
+				09408D982B3E98180053D269 /* Info.plist */,
+				09408D9E2B3EA53D0053D269 /* LocalTransferManager.swift */,
+				0916EDD62B3EFDEB00338DD0 /* Bridging-Header.h */,
+			);
+			path = LocalTransfer;
+			sourceTree = "<group>";
+		};
+		09F05B022B4286FC004A92EE /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				09F05B032B42878B004A92EE /* GCDWebServer */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		09F05B032B42878B004A92EE /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				09F05B042B42878B004A92EE /* GCDWebServer */,
+				09F05B242B42878B004A92EE /* LICENSE */,
+				09F05B252B42878B004A92EE /* README.md */,
+				09F05B262B42878B004A92EE /* GCDWebUploader */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		09F05B042B42878B004A92EE /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				09F05B052B42878B004A92EE /* Core */,
+				09F05B122B42878B004A92EE /* Responses */,
+				09F05B1B2B42878B004A92EE /* Requests */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		09F05B052B42878B004A92EE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				09F05B062B42878B004A92EE /* GCDWebServerFunctions.h */,
+				09F05B072B42878B004A92EE /* GCDWebServerPrivate.h */,
+				09F05B082B42878B004A92EE /* GCDWebServerResponse.m */,
+				09F05B092B42878B004A92EE /* GCDWebServerConnection.h */,
+				09F05B0A2B42878B004A92EE /* GCDWebServer.h */,
+				09F05B0B2B42878B004A92EE /* GCDWebServerRequest.m */,
+				09F05B0C2B42878B004A92EE /* GCDWebServerHTTPStatusCodes.h */,
+				09F05B0D2B42878B004A92EE /* GCDWebServerResponse.h */,
+				09F05B0E2B42878B004A92EE /* GCDWebServerFunctions.m */,
+				09F05B0F2B42878B004A92EE /* GCDWebServer.m */,
+				09F05B102B42878B004A92EE /* GCDWebServerConnection.m */,
+				09F05B112B42878B004A92EE /* GCDWebServerRequest.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		09F05B122B42878B004A92EE /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				09F05B132B42878B004A92EE /* GCDWebServerFileResponse.h */,
+				09F05B142B42878B004A92EE /* GCDWebServerStreamedResponse.h */,
+				09F05B152B42878B004A92EE /* GCDWebServerErrorResponse.m */,
+				09F05B162B42878B004A92EE /* GCDWebServerDataResponse.h */,
+				09F05B172B42878B004A92EE /* GCDWebServerFileResponse.m */,
+				09F05B182B42878B004A92EE /* GCDWebServerDataResponse.m */,
+				09F05B192B42878B004A92EE /* GCDWebServerErrorResponse.h */,
+				09F05B1A2B42878B004A92EE /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		09F05B1B2B42878B004A92EE /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				09F05B1C2B42878B004A92EE /* GCDWebServerDataRequest.h */,
+				09F05B1D2B42878B004A92EE /* GCDWebServerMultiPartFormRequest.h */,
+				09F05B1E2B42878B004A92EE /* GCDWebServerFileRequest.h */,
+				09F05B1F2B42878B004A92EE /* GCDWebServerURLEncodedFormRequest.m */,
+				09F05B202B42878B004A92EE /* GCDWebServerMultiPartFormRequest.m */,
+				09F05B212B42878B004A92EE /* GCDWebServerDataRequest.m */,
+				09F05B222B42878B004A92EE /* GCDWebServerFileRequest.m */,
+				09F05B232B42878B004A92EE /* GCDWebServerURLEncodedFormRequest.h */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		09F05B262B42878B004A92EE /* GCDWebUploader */ = {
+			isa = PBXGroup;
+			children = (
+				09F05B272B42878B004A92EE /* GCDWebUploader.bundle */,
+				09F05B282B42878B004A92EE /* GCDWebUploader.h */,
+				09F05B292B42878B004A92EE /* GCDWebUploader.m */,
+			);
+			path = GCDWebUploader;
+			sourceTree = "<group>";
+		};
+		2D9E02DC235D8A07E5C6590B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D3CB76EAF9F784425A15FD1 /* Pods_LocalTransfer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F89AB63A7653AD2198BC699 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B967DD1A4CF4053FEED023A2 /* Pods-LocalTransfer.debug.xcconfig */,
+				E0F11FF827C5FE8F8CC2613C /* Pods-LocalTransfer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09408D862B3E98160053D269 /* LocalTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09408D9B2B3E98180053D269 /* Build configuration list for PBXNativeTarget "LocalTransfer" */;
+			buildPhases = (
+				406B228A4941F5E17809F443 /* [CP] Check Pods Manifest.lock */,
+				09408D832B3E98160053D269 /* Sources */,
+				09408D842B3E98160053D269 /* Frameworks */,
+				09408D852B3E98160053D269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalTransfer;
+			productName = LocalTransfer;
+			productReference = 09408D872B3E98160053D269 /* LocalTransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09408D7F2B3E98160053D269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					09408D862B3E98160053D269 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 09408D822B3E98160053D269 /* Build configuration list for PBXProject "LocalTransfer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09408D7E2B3E98160053D269;
+			productRefGroup = 09408D882B3E98160053D269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09408D862B3E98160053D269 /* LocalTransfer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09408D852B3E98160053D269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09408D942B3E98180053D269 /* Assets.xcassets in Resources */,
+				0916EDD52B3EFD4D00338DD0 /* LaunchScreen.storyboard in Resources */,
+				09F05B382B42878B004A92EE /* README.md in Resources */,
+				09F05B392B42878B004A92EE /* GCDWebUploader.bundle in Resources */,
+				09F05B372B42878B004A92EE /* LICENSE in Resources */,
+				09408D922B3E98160053D269 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		406B228A4941F5E17809F443 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalTransfer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09408D832B3E98160053D269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09408D9F2B3EA53D0053D269 /* LocalTransferManager.swift in Sources */,
+				09408D8F2B3E98160053D269 /* ViewController.swift in Sources */,
+				09F05B2A2B42878B004A92EE /* GCDWebServerResponse.m in Sources */,
+				09408D8B2B3E98160053D269 /* AppDelegate.swift in Sources */,
+				09F05B362B42878B004A92EE /* GCDWebServerFileRequest.m in Sources */,
+				09F05B342B42878B004A92EE /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				09F05B2D2B42878B004A92EE /* GCDWebServer.m in Sources */,
+				09F05B302B42878B004A92EE /* GCDWebServerFileResponse.m in Sources */,
+				09F05B2B2B42878B004A92EE /* GCDWebServerRequest.m in Sources */,
+				09F05B332B42878B004A92EE /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				09F05B2F2B42878B004A92EE /* GCDWebServerErrorResponse.m in Sources */,
+				09F05B352B42878B004A92EE /* GCDWebServerDataRequest.m in Sources */,
+				09F05B322B42878B004A92EE /* GCDWebServerStreamedResponse.m in Sources */,
+				09408D8D2B3E98160053D269 /* SceneDelegate.swift in Sources */,
+				09F05B312B42878B004A92EE /* GCDWebServerDataResponse.m in Sources */,
+				09F05B2C2B42878B004A92EE /* GCDWebServerFunctions.m in Sources */,
+				09F05B2E2B42878B004A92EE /* GCDWebServerConnection.m in Sources */,
+				09F05B3A2B42878B004A92EE /* GCDWebUploader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09408D902B3E98160053D269 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09408D912B3E98160053D269 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09408D992B3E98180053D269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09408D9A2B3E98180053D269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09408D9C2B3E98180053D269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B967DD1A4CF4053FEED023A2 /* Pods-LocalTransfer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ84U76D98;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocalTransfer/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Reason for using Bonjour that the user can understand";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wasiq.LocalTransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09408D9D2B3E98180053D269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F11FF827C5FE8F8CC2613C /* Pods-LocalTransfer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ84U76D98;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocalTransfer/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Reason for using Bonjour that the user can understand";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wasiq.LocalTransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09408D822B3E98160053D269 /* Build configuration list for PBXProject "LocalTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09408D992B3E98180053D269 /* Debug */,
+				09408D9A2B3E98180053D269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09408D9B2B3E98180053D269 /* Build configuration list for PBXNativeTarget "LocalTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09408D9C2B3E98180053D269 /* Debug */,
+				09408D9D2B3E98180053D269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09408D7F2B3E98160053D269 /* Project object */;
+}

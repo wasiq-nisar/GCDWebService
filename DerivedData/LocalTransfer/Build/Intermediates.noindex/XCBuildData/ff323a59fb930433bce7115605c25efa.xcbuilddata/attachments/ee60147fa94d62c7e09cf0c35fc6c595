@@ -1,0 +1,6 @@
+framework module Pods_LocalTransfer {
+  umbrella header "Pods-LocalTransfer-umbrella.h"
+
+  export *
+  module * { export * }
+}

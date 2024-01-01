@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "d854df20331a2f2ce5f2689fc447a10f460f4748f518ab35f7fb2e7f2359d8f6"
+build_start_time: [1704088148, 249181000]
+build_end_time: [1704088148, 253612000]
+inputs:
+  ? "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Index.noindex/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : !dirty [1704085458, 333768580]
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/AppDelegate.swift": !dirty [1704088148, 171044242]
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/LocalTransferManager.swift": !dirty [1703855686, 295009248]
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/SceneDelegate.swift": !dirty [1703829654, 816052114]
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/ViewController.swift": !dirty [1703855764, 353321576]

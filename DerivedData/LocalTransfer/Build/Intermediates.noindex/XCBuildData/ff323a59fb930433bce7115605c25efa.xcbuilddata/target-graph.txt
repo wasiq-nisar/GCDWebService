@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'LocalTransfer' in project 'LocalTransfer'
+➜ Implicit dependency on target 'Pods-LocalTransfer' in project 'Pods' via file 'Pods_LocalTransfer.framework' in build phase 'Link Binary'
+Target 'Pods-LocalTransfer' in project 'Pods' (no dependencies)

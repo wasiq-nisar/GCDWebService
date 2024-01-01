@@ -1,0 +1,58 @@
+{
+  "" : {
+    "diagnostics" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransfer-master.dia",
+    "emit-module-dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransfer-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransfer-master-emit-module.dia",
+    "swift-dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransfer-master.swiftdeps"
+  },
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/AppDelegate.swift" : {
+    "const-values" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/LocalTransferManager.swift" : {
+    "const-values" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransferManager.swiftconstvalues",
+    "dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransferManager.d",
+    "diagnostics" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransferManager.dia",
+    "index-unit-output-path" : "/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransferManager.o",
+    "llvm-bc" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransferManager.bc",
+    "object" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransferManager.o",
+    "swift-dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransferManager.swiftdeps",
+    "swiftmodule" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/LocalTransferManager~partial.swiftmodule"
+  },
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/SceneDelegate.swift" : {
+    "const-values" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/LocalTransfer/ViewController.swift" : {
+    "const-values" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/ViewController.swiftconstvalues",
+    "dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/ViewController.d",
+    "diagnostics" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/ViewController.dia",
+    "index-unit-output-path" : "/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/ViewController.o",
+    "llvm-bc" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/ViewController.bc",
+    "object" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/ViewController.o",
+    "swift-dependencies" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/ViewController.swiftdeps",
+    "swiftmodule" : "/Users/muhammadwasiq/Desktop/Wasiq/LocalTransfer/DerivedData/LocalTransfer/Build/Intermediates.noindex/LocalTransfer.build/Debug-iphoneos/LocalTransfer.build/Objects-normal/arm64/ViewController~partial.swiftmodule"
+  }
+}
